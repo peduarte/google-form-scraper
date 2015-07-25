@@ -1,0 +1,22 @@
+{
+  "name": "google-form-api",
+  "version": "1.0.0",
+  "description": "Google form api",
+  "main": "index.js",
+  "scripts": {
+    "server": "node index.js"
+  },
+  "author": "Pedro Duarte",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/peduarte/London-Housing-Headline/issues"
+  },
+  "homepage": "https://github.com/peduarte/London-Housing-Headline#readme",
+  "private": true,
+  "devDependencies": {
+    "cheerio": "^0.19.0",
+    "cors": "^2.7.1",
+    "express": "^4.13.1",
+    "request": "^2.60.0"
+  }
+}
