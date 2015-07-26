@@ -41,6 +41,10 @@ app.get('/api/google-form', function(req, res) {
   }
 });
 
+app.get('/', function(req, res) {
+	res.send('Nothing to see here...');
+});
+
 
 app.listen(PORT);
 console.log('Listening at localhost:' + PORT);
