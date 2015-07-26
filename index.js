@@ -42,7 +42,7 @@ app.get('/api/google-form', function(req, res) {
 });
 
 app.get('/', function(req, res) {
-	res.send('Nothing to see here...');
+	res.send('Nothing to see here ¯/\_(ツ)_/¯');
 });
 
 
